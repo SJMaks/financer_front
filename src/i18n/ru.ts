@@ -16,6 +16,8 @@ export const ru: Record<TranslationKey, string> = {
   'common.allCategories': 'Все категории',
   'common.clearFilters': 'Сбросить фильтры',
   'common.filtersAndSorting': 'Фильтры и сортировка',
+  'common.hideFilters': 'Скрыть фильтры',
+  'common.showFilters': 'Показать фильтры',
   'common.dismissNotification': 'Скрыть уведомление',
   'common.viewDetails': 'Подробнее',
   'common.viewAll': 'Все',

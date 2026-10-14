@@ -14,6 +14,8 @@ export const en = {
   'common.allCategories': 'All categories',
   'common.clearFilters': 'Clear filters',
   'common.filtersAndSorting': 'Filters & sorting',
+  'common.hideFilters': 'Hide filters',
+  'common.showFilters': 'Show filters',
   'common.dismissNotification': 'Dismiss notification',
   'common.viewDetails': 'View details',
   'common.viewAll': 'View all',
