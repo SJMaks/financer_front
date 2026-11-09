@@ -61,6 +61,9 @@ jobs:
           VM_PORT: ${{ secrets.VM_SSH_PORT }}
         run: |
           set -euo pipefail
-          rsync -az --delete \
+          rsync -az --delete --delete-excluded \
+            --exclude='/Financer_demo.gif' \
+            --exclude='/Financer_readme_1.png' \
+            --exclude='/Financer_readme_2.png' \
             -e "ssh -i ~/.ssh/deploy_key -p ${VM_PORT:-22} -o StrictHostKeyChecking=yes" \
             dist/ "${VM_USER}@${VM_HOST}:${DEPLOY_PATH}/"

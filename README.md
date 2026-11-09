@@ -1,5 +1,7 @@
 # Financer - Панель личных финансов (фронтенд)
 
+[![Deploy to VM](https://github.com/SJMaks/financer_front/actions/workflows/deploy.yml/badge.svg)](https://github.com/SJMaks/financer_front/actions/workflows/deploy.yml)
+
 ![Демонстрация](public/Financer_demo.gif)
 
 Веб-фронтенд проекта **Financer** - pet-проекта по управлению личными
